@@ -1,6 +1,5 @@
 # Regression Error Analysis
 
-## Project Overview
 This project focuses on understanding how machine learning models make errors instead of only checking accuracy.
 
 The main goal is to study:
@@ -11,55 +10,43 @@ The main goal is to study:
 We are not trying to improve accuracy here.
 We are trying to understand model behavior.
 
----
+
+## Project Goal
+
+To analyze how regression models behave using:
+- Same dataset (California Housing Dataset)
+- Same features
+- Same train/test split
+
+And observe key ML concepts:
+- Bias vs Variance
+- Underfitting vs Overfitting
+- Error patterns in predictions
+
 
 ## Dataset
-- Dataset: California Housing Dataset
-- Target: median_house_value
+
+- California Housing Dataset
+- Target variable: `median_house_value`
 - Categorical column removed
 - Missing values dropped
 - Features scaled using StandardScaler
 
----
 
 ## Models Used
+
 - Linear Regression
-- Ridge Regression
-- Lasso Regression
+- Decision Tree Regressor
+- Random Forest Regressor
 
----
-
-## Key Concept: Residual
-
-Residual = Actual Value - Predicted Value
-
-It shows how wrong the model is.
-
----
 
 ## What This Project Does
 
 - Train models on training data
-- Predict on train and test data
+- Predict on training and test data
 - Calculate residual errors
 - Plot residual graphs
 - Compare Train vs Test RMSE
-
----
-
-## Residual Plot
-
-- X-axis: Predicted values
-- Y-axis: Residual (error)
-
-### Good model:
-- Random scatter of points
-
-### Our result:
-- Pattern observed in errors
-- Indicates model limitation
-
----
 
 ## Results Summary
 
@@ -67,29 +54,104 @@ It shows how wrong the model is.
 - Ridge Regression → Same behavior
 - Lasso Regression → Same behavior
 
----
-
-## Key Learnings
-
-- Error is not just a number, it has patterns
-- Residual plots help understand model problems
-- Train vs Test comparison helps detect underfitting
-- Linear models struggle with complex data
-
----
-
 ## Conclusion
 
 All models show similar behavior:
+
 - High RMSE
 - No major difference between train and test
 - Clear underfitting pattern
 
 This proves that simple linear models cannot fully capture complex relationships in this dataset.
 
+--- 
+
+## Project Structure
+
+```
+regression-error-analysis/
+├── data/
+│   └── housing.csv
+├── src/
+│   ├── load_data.py
+│   ├── main.py
+│   ├── preprocessing.py
+│   └── train.py
+├── result/
+│   └── metrics.txt
+├── requirements.txt
+└── README.md
+```
+
+
+---
+   ```bash
+   git clone https://github.com/Sabirhusseinbalal/regression-error-analysis.git
+   ```
 ---
 
-## Next Step
+## Machine Learning (Beginner → Advanced)
 
-Feature Engineering (Repo 5)
-We will try to improve model performance by transforming features.
+---
+
+### Stage 1: Regression Foundations
+- [***simple-regression-lab***](https://github.com/sabirhusseinbalal/simple-regression-lab)
+- [***house-price-prediction-ml***](https://github.com/sabirhusseinbalal/house-price-prediction-ml)
+- [***same-data-different-models***](https://github.com/sabirhusseinbalal/same-data-different-models)
+  
+---
+
+### Stage 2: Regression Deep Dive
+- 👉 regression-error-analysis
+- feature-engineering-regression
+- regression-from-scratch
+
+---
+
+### Stage 3: Classification Core
+- binary-classification-basics
+- credit-risk-classification
+- threshold-tuning-classification
+
+---
+
+### Stage 4: Classification Depth
+- class-imbalance-handling
+- logistic-regression-from-scratch
+- model-interpretability
+
+---
+
+### Stage 5: Unsupervised Learning
+- customer-segmentation-clustering
+- dimensionality-reduction
+- clustering-comparison
+
+---
+
+### Stage 6: Association & Anomaly Detection
+- market-basket-analysis
+- anomaly-detection-dbscan
+- anomaly-detection-isolation-forest
+
+---
+
+### Stage 7: Ensemble & Optimization
+- ensemble-learning-ml
+- hyperparameter-tuning
+
+---
+
+### Stage 8: Real-World ML Projects
+- churn-prediction-system
+- fraud-detection-system
+- sales-forecasting-system
+
+---
+
+
+
+
+
+
+
