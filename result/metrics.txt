@@ -1,0 +1,45 @@
+Regression Error Analysis - Model Performance
+
+Dataset:
+California Housing Dataset
+Target: median_house_value
+
+--------------------------------------------
+
+Model: Linear Regression
+Train RMSE: 69687.65
+Test RMSE : 69189.94
+
+Observation:
+Model shows high error on both train and test data.
+Residual plot shows pattern → model is underfitting.
+
+--------------------------------------------
+
+Model: Ridge Regression
+Train RMSE: 69687.66
+Test RMSE : 69190.64
+
+Observation:
+Very similar performance to Linear Regression.
+No improvement in capturing data complexity.
+
+--------------------------------------------
+
+Model: Lasso Regression
+Train RMSE: 69687.65
+Test RMSE : 69189.96
+
+Observation:
+Same behavior as other linear models.
+Still underfitting the data.
+
+--------------------------------------------
+
+Final Conclusion:
+All models show:
+- High error
+- Similar train and test performance
+- Residual patterns
+
+This confirms underfitting (high bias).
