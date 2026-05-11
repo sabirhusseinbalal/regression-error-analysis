@@ -35,9 +35,9 @@ And observe key ML concepts:
 
 ## Models Used
 
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
+- Linear
+- Ridge
+- Lasso
 
 
 ## What This Project Does
