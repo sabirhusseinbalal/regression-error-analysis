@@ -90,66 +90,15 @@ regression-error-analysis/
    ```
 ---
 
-## Machine Learning (Beginner → Advanced)
-
+## Machine Learning (Basics)
 ---
-
-### Stage 1: Regression Foundations
 - [***simple-regression-lab***](https://github.com/sabirhusseinbalal/simple-regression-lab)
 - [***house-price-prediction-ml***](https://github.com/sabirhusseinbalal/house-price-prediction-ml)
 - [***same-data-different-models***](https://github.com/sabirhusseinbalal/same-data-different-models)
-  
----
-
-### Stage 2: Regression Deep Dive
 - 👉 regression-error-analysis
-- feature-engineering-regression
-- regression-from-scratch
-
----
-
-### Stage 3: Classification Core
-- binary-classification-basics
-- credit-risk-classification
-- threshold-tuning-classification
-
----
-
-### Stage 4: Classification Depth
-- class-imbalance-handling
-- logistic-regression-from-scratch
-- model-interpretability
-
----
-
-### Stage 5: Unsupervised Learning
-- customer-segmentation-clustering
-- dimensionality-reduction
-- clustering-comparison
-
----
-
-### Stage 6: Association & Anomaly Detection
-- market-basket-analysis
-- anomaly-detection-dbscan
-- anomaly-detection-isolation-forest
-
----
-
-### Stage 7: Ensemble & Optimization
-- ensemble-learning-ml
-- hyperparameter-tuning
-
----
-
-### Stage 8: Real-World ML Projects
-- churn-prediction-system
-- fraud-detection-system
-- sales-forecasting-system
-
----
-
-
+  
+**Watch Full YouTube Playlist:**
+[[Machine Learning (Beginner → Advanced)](https://youtube.com/playlist?list=PLBslpEV463BcknHrcoF_OJDyutuE1DneY&si=7PfeO4OSQCqh1wEI)]
 
 
 
